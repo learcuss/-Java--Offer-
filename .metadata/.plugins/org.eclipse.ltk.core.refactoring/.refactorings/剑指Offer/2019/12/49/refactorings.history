@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;剑指Offer.No3&apos; to &apos;No3me&apos;&#x0D;&#x0A;- Original project: &apos;剑指Offer&apos;&#x0D;&#x0A;- Original element: &apos;剑指Offer.No3&apos;&#x0D;&#x0A;- Renamed element: &apos;剑指Offer.No3me&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;No3&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;剑指Offer{No3.java[No3" matchStrategy="1" name="No3me" qualified="false" references="true" similarDeclarations="false" stamp="1575266157861" textual="false" version="1.0"/>
+</session>

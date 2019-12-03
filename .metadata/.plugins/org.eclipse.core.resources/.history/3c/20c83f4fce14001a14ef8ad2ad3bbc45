@@ -1,0 +1,32 @@
+package ½£Ö¸Offer;
+
+public class test {
+	public static void main(String[] args) {
+		int[] arr = {4,3,3,1,0,2,5};
+		boolean k = duplicate(arr,arr.length);
+	}
+	public static boolean duplicate(int[] arr,int k){
+		if(arr.length<1 || arr==null){
+			return false;
+		}
+		
+		for (int i = 0; i < arr.length; i++) {
+			if(arr[i] != i){
+				if(arr[i]==arr[arr[i]]){
+					System.out.println(arr[i]);
+					return true;
+				}else{
+					swap(arr,i,arr[i]);
+				}
+			}
+		}
+		System.out.println("NONE");
+		return false;
+	}
+	public static void swap(int[] arr,int i,int j){
+		int t = arr[i];
+		arr[i] = arr[j];
+		arr[j] = t;
+	}
+
+}

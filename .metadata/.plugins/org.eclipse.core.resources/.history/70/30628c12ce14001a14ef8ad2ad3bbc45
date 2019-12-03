@@ -1,0 +1,28 @@
+package ½£Ö¸Offer;
+
+public class test {
+	public static void main(String[] args) {
+		
+	}
+	public static boolean duplicate(int[] arr,int k,int[] arr2){
+		if(arr.length<1 || arr==null){
+			return false;
+		}
+		
+		for (int i = 0; i < arr2.length; i++) {
+			if(arr[i] != i){
+				if(arr[i]==arr[arr[i]]){
+					System.out.println(arr[i]);
+					return true;
+				}else{
+					
+				}
+			}
+		}
+		return false;
+	}
+	public static void swap(int[] arr,int i,int j){
+		
+	}
+
+}
